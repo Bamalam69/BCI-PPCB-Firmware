@@ -1,0 +1,193 @@
+
+    // Read Init Complete Register:
+    // uint8_t init_complete;
+    // ad7779_spi_int_reg_read_mask(adc, AD7779_REG_STATUS_REG_3, 1 << 4, &init_complete);
+    // Serial.print("Init. completion status: ");
+    // Serial.println(init_complete, BIN);
+
+    // Quick check to see if a register write is even working:
+    // ad7779_gain gain;
+    // Serial.print("CH0 GAIN (BEFORE): ");
+    // switch (gain)
+    // {
+    // case ad7779_gain::AD7779_GAIN_1:
+    //     Serial.println("GAIN_1");
+    //     break;
+    // case ad7779_gain::AD7779_GAIN_2:
+    //     Serial.println("GAIN_2");
+    //     break;
+    // case ad7779_gain::AD7779_GAIN_4:
+    //     Serial.println("GAIN_4");
+    //     break;
+    // case ad7779_gain::AD7779_GAIN_8:
+    //     Serial.println("GAIN_8");
+    //     break;
+    // default:
+    //     Serial.println("UNKOWN");
+    //     break;
+    // }
+    // ad7779_set_gain(adc, ad7779_ch::AD7779_CH0, AD7779_GAIN_2);
+    // ad7779_get_gain(adc, ad7779_ch::AD7779_CH0, &gain);
+    // Serial.print("CH0 GAIN (AFTER): ");
+    // switch (gain)
+    // {
+    // case ad7779_gain::AD7779_GAIN_1:
+    //     Serial.println("GAIN_1");
+    //     break;
+    // case ad7779_gain::AD7779_GAIN_2:
+    //     Serial.println("GAIN_2");
+    //     break;
+    // case ad7779_gain::AD7779_GAIN_4:
+    //     Serial.println("GAIN_4");
+    //     break;
+    // case ad7779_gain::AD7779_GAIN_8:
+    //     Serial.println("GAIN_8");
+    //     break;
+    // default:
+    //     Serial.println("UNKOWN");
+    //     break;
+    // }
+    // delay(5000);
+    // Enable error header:
+    // ad7779_spi_int_reg_write_mask(adc, AD7779_REG_DOUT_FORMAT, AD7779_DOUT_HEADER_FORMAT, 0);
+
+    // // Finish off setting the output data rate:
+    // ad7779_spi_int_reg_write_mask(adc, AD7779_REG_SRC_UPDATE, AD7779_SRC_LOAD_SOURCE, 0);
+    // ad7779_spi_int_reg_write_mask(adc, AD7779_REG_SRC_UPDATE, AD7779_SRC_LOAD_UPDATE, 1);
+    // delay(10);
+    // ad7779_spi_int_reg_write_mask(adc, AD7779_REG_SRC_UPDATE, AD7779_SRC_LOAD_UPDATE, 0);
+
+    // delay(2500);
+
+    // Check for ANY errors:
+    // uint8_t error_status;
+    // ad7779_spi_int_reg_read_mask(adc, AD7779_REG_STATUS_REG_1, 1 << 5, &error_status);
+    // if (error_status)
+    // {
+    //     Serial.println("ERROR PRESENT");
+    //     // Find error:
+    // }
+    // else
+    // {
+    //     Serial.println("NO ERROR DETECTED");
+    // }
+
+    // for (uint8_t i = 0; i < 3; i++)
+    // {
+    //     uint8_t target_reg = 0x5D + i;
+
+    //     for (uint8_t j = 6; j >= 1; j--)
+    //     {
+    //         uint8_t error_all_bits;
+
+    //         ad7779_spi_int_reg_read_mask(adc, target_reg, 1 << (j - 1), &error_all_bits);
+    //         Serial.print("Register: ");
+    //         Serial.print(target_reg, HEX);
+    //         Serial.print(", Bit number: ");
+    //         Serial.print(j - 1);
+    //         Serial.print(", Value: ");
+    //         Serial.println(error_all_bits, BIN);
+
+    //         delay(100);
+    //     }
+    // }
+    // delay(5000);
+
+    // uint8_t reg;
+    // ad7779_spi_int_reg_read(adc, AD7779_REG_GEN_ERR_REG_1, &reg);
+    // Serial.print("GEN_ERR_REG_1: ");
+    // Serial.println(reg, BIN);
+
+    // ad7779_spi_int_reg_read(adc, AD7779_REG_GEN_ERR_REG_1, &reg);
+    // Serial.print("GEN_ERR_REG_1: ");
+    // Serial.println(reg, BIN);
+
+    // ad7779_spi_int_reg_read(adc, AD7779_REG_GEN_ERR_REG_2, &reg);
+    // Serial.print("GEN_ERR_REG_2: ");
+    // Serial.println(reg, BIN);
+
+    // delay(10);
+    // Set SPI Data output mode:
+    // ad7779_set_spi_op_mode(adc, ad7779_spi_op_mode::AD7779_SAR_CONV);
+    // Serial.println("\n\nAbout to write SDO output mode...");
+    // ad7779_gain gain;
+    // ad7779_get_gain(adc, ad7779_ch::AD7779_CH1, &gain);
+    // Serial.println(gain, BIN);
+    // // First, clear errors in SPI error reg:
+    // uint8_t data;
+    // ad7779_spi_int_reg_read(adc, AD7779_REG_GEN_ERR_REG_1, &data);
+    // Serial.print("ERROR Status: ");
+    // Serial.println(data, BIN);
+    // ad7779_spi_int_reg_read(adc, AD7779_REG_GEN_ERR_REG_1, &data);
+    // Serial.print("ERROR Status: ");
+    // Serial.println(data, BIN);
+
+    // delay(5000);
+
+    // Serial.println("Writing to REG_GENERAL_USER_CONFIG...");
+    // ad7779_spi_int_reg_write_mask(adc, AD7779_REG_GENERAL_USER_CONFIG_2, 0x3 << 3, 0x3 << 3);
+    // ad7779_spi_int_reg_read(adc, AD7779_REG_GEN_ERR_REG_1, &data);
+    // Serial.print("ERROR Status: ");
+    // Serial.println(data, BIN);
+    // // Check if data output mode was enabled:
+    // ad7779_spi_op_mode op_mode;
+    // ad7779_get_spi_op_mode(adc, &op_mode);
+    // Serial.print("Op mode: ");
+    // switch (op_mode)
+    // {
+    // case ad7779_spi_op_mode::AD7779_SAR_CONV:
+    //     Serial.println("SAR_CONV");
+    //     break;
+    // case ad7779_spi_op_mode::AD7779_INT_REG:
+    //     Serial.println("INT_REG");
+    //     break;
+    // case ad7779_spi_op_mode::AD7779_SD_CONV:
+    //     Serial.println("SD_CONV");
+    //     break;
+    // default:
+    //     Serial.println("Unkown");
+    //     break;
+    // }
+    // ad7779_spi_int_reg_read(adc, AD7779_REG_GEN_ERR_REG_1, &data);
+    // Serial.print("ERROR Status: ");
+    // Serial.println(data, BIN);
+
+    // // Raw reading the registers:
+    // uint8_t cfg2, cfg3;
+    // ad7779_spi_int_reg_read(adc, AD7779_REG_GENERAL_USER_CONFIG_2, &cfg2);
+    // ad7779_spi_int_reg_read(adc, AD7779_REG_GENERAL_USER_CONFIG_3, &cfg3);
+    // Serial.print("CONFIG_2: ");
+    // Serial.print(cfg2, BIN);
+    // Serial.print(", CONFIG_3: ");
+    // Serial.println(cfg3, BIN);
+
+    // // Check other registers in case a soft-reset occured:
+    // ad7779_get_gain(adc, ad7779_ch::AD7779_CH1, &gain);
+    // Serial.println(gain, BIN);
+
+    // // Register vs bit read compare
+    // Serial.println("Comparing register read and bit read: ");
+    // uint8_t reg_read, bit_read;
+    // ad7779_spi_int_reg_read(adc, AD7779_REG_GEN_ERR_REG_2_EN, &reg_read);
+    // ad7779_spi_int_reg_read_mask(adc, AD7779_REG_GEN_ERR_REG_2_EN, 1 << 5, &bit_read);
+    // Serial.print("\nRegister read: ");
+    // Serial.println(reg_read, BIN);
+    // Serial.print("Bit read: ");
+    // Serial.println(bit_read, BIN);
+    // Serial.println();
+
+    // // Enable reset detect bit
+    // Serial.println("Enabling reset detect bit: ");
+    // ad7779_spi_int_reg_write_mask(adc, AD7779_REG_GEN_ERR_REG_2_EN, 1 << 5, 1 << 5);
+
+    // // Check if reset detected:
+    // Serial.println("Checking reset detect bit: ");
+    // uint8_t reset_detect_en;
+    // ad7779_spi_int_reg_read_mask(adc, AD7779_REG_GEN_ERR_REG_2_EN, 1 << 5, &reset_detect_en);
+    // Serial.print("RESET DETECT ENABLE?: ");
+    // Serial.println(reset_detect_en, BIN);
+
+    // uint8_t reset_detected;
+    // ad7779_spi_int_reg_read_mask(adc, AD7779_REG_GEN_ERR_REG_2, 1 << 5, &reset_detected);
+    // Serial.print("RESET DETECTED?: ");
+    // Serial.println(reset_detected, BIN);

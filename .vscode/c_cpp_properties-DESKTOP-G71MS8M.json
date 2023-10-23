@@ -1,0 +1,74 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "c:/Users/jodyb/OneDrive/Project Resources/Firmware/BCIFirmware/include",
+                "c:/Users/jodyb/OneDrive/Project Resources/Firmware/BCIFirmware/src",
+                "C:/Users/jodyb/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "c:/Users/jodyb/OneDrive/Project Resources/Firmware/BCIFirmware/lib/AD7779",
+                "c:/Users/jodyb/OneDrive/Project Resources/Firmware/BCIFirmware/lib/no_os_alloc",
+                "C:/Users/jodyb/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "C:/Users/jodyb/.platformio/packages/framework-arduino-avr/variants/micro",
+                "c:/Users/jodyb/OneDrive/Project Resources/Firmware/BCIFirmware/lib/no_os_delay",
+                "c:/Users/jodyb/OneDrive/Project Resources/Firmware/BCIFirmware/lib/no_os_error",
+                "c:/Users/jodyb/OneDrive/Project Resources/Firmware/BCIFirmware/lib/no_os_gpio",
+                "c:/Users/jodyb/OneDrive/Project Resources/Firmware/BCIFirmware/lib/no_os_spi",
+                "c:/Users/jodyb/OneDrive/Project Resources/Firmware/BCIFirmware/lib/no_os_util",
+                "C:/Users/jodyb/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "C:/Users/jodyb/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "C:/Users/jodyb/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "C:/Users/jodyb/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "c:/Users/jodyb/OneDrive/Project Resources/Firmware/BCIFirmware/include",
+                    "c:/Users/jodyb/OneDrive/Project Resources/Firmware/BCIFirmware/src",
+                    "C:/Users/jodyb/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "c:/Users/jodyb/OneDrive/Project Resources/Firmware/BCIFirmware/lib/AD7779",
+                    "c:/Users/jodyb/OneDrive/Project Resources/Firmware/BCIFirmware/lib/no_os_alloc",
+                    "C:/Users/jodyb/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "C:/Users/jodyb/.platformio/packages/framework-arduino-avr/variants/micro",
+                    "c:/Users/jodyb/OneDrive/Project Resources/Firmware/BCIFirmware/lib/no_os_delay",
+                    "c:/Users/jodyb/OneDrive/Project Resources/Firmware/BCIFirmware/lib/no_os_error",
+                    "c:/Users/jodyb/OneDrive/Project Resources/Firmware/BCIFirmware/lib/no_os_gpio",
+                    "c:/Users/jodyb/OneDrive/Project Resources/Firmware/BCIFirmware/lib/no_os_spi",
+                    "c:/Users/jodyb/OneDrive/Project Resources/Firmware/BCIFirmware/lib/no_os_util",
+                    "C:/Users/jodyb/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "C:/Users/jodyb/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "C:/Users/jodyb/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "C:/Users/jodyb/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60107",
+                "ARDUINO_AVR_MICRO",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "USB_VID=0x2341",
+                "USB_PID=0x8037",
+                "USB_PRODUCT=\"Arduino Micro\"",
+                "USB_MANUFACTURER=\"Arduino\"",
+                "__AVR_ATmega32U4__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "C:/Users/jodyb/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+            "compilerArgs": [
+                "-mmcu=atmega32u4",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

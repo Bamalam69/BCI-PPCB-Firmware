@@ -1,0 +1,255 @@
+Setting up ADCs...
+Set this as head ADC.
+SPI init success.
+Pinged RESET...
+
+General Error Register 1: 0	General Error Register 2: 100000
+
+Status Register #1:100000
+Status Register #2:100000
+Status Register #3:111111
+
+
+General Error Register 1: 0	General Error Register 2: 0
+
+CH0_1_SAT_ERR: 111111
+CH2_3_SAT_ERR: 111111
+CH4_5_SAT_ERR: 111111
+CH6_7_SAT_ERR: 111111
+
+UPDATING CACHED REG...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+RESETTING CHANNEL CONFIGS...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP CHANNEL GAINS...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP DECIMATION RATE...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP SRC LOAD AND UPDATE...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP REFOUT...
+Just wrote AD7779_PDB_REFOUT_BUF
+
+General Error Register 1: 0	General Error Register 2: 0
+
+WROTE MUX
+
+General Error Register 1: 0	General Error Register 2: 0
+
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP POWER MODE...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+UPDATING PIN MODE...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP CHANNELS......
+
+General Error Register 1: 0	General Error Register 2: 0
+
+AD7779 successfully initialized!!!!!!
+Set this as head ADC.
+SPI init success.
+Pinged RESET...
+
+General Error Register 1: 0	General Error Register 2: 100000
+
+Status Register #1:100000
+Status Register #2:100000
+Status Register #3:111111
+
+
+General Error Register 1: 0	General Error Register 2: 0
+
+CH0_1_SAT_ERR: 111111
+CH2_3_SAT_ERR: 111111
+CH4_5_SAT_ERR: 111111
+CH6_7_SAT_ERR: 111111
+
+UPDATING CACHED REG...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+RESETTING CHANNEL CONFIGS...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP CHANNEL GAINS...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP DECIMATION RATE...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP SRC LOAD AND UPDATE...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP REFOUT...
+Just wrote AD7779_PDB_REFOUT_BUF
+
+General Error Register 1: 0	General Error Register 2: 0
+
+WROTE MUX
+
+General Error Register 1: 0	General Error Register 2: 0
+
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP POWER MODE...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+UPDATING PIN MODE...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP CHANNELS......
+
+General Error Register 1: 0	General Error Register 2: 0
+
+AD7779 successfully initialized!!!!!!
+Set this as head ADC.
+SPI init success.
+Pinged RESET...
+
+General Error Register 1: 0	General Error Register 2: 100000
+
+Status Register #1:111111
+Status Register #2:100111
+Status Register #3:111111
+
+
+General Error Register 1: 0	General Error Register 2: 0
+
+CH0_1_SAT_ERR: 111111
+CH2_3_SAT_ERR: 111111
+CH4_5_SAT_ERR: 111111
+CH6_7_SAT_ERR: 111111
+
+UPDATING CACHED REG...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+RESETTING CHANNEL CONFIGS...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP CHANNEL GAINS...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP DECIMATION RATE...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP SRC LOAD AND UPDATE...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP REFOUT...
+Just wrote AD7779_PDB_REFOUT_BUF
+
+General Error Register 1: 0	General Error Register 2: 0
+
+WROTE MUX
+
+General Error Register 1: 0	General Error Register 2: 0
+
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP POWER MODE...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+UPDATING PIN MODE...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP CHANNELS......
+
+General Error Register 1: 0	General Error Register 2: 0
+
+AD7779 successfully initialized!!!!!!
+Set this as head ADC.
+SPI init success.
+Pinged RESET...
+
+General Error Register 1: 0	General Error Register 2: 100000
+
+Status Register #1:100000
+Status Register #2:100000
+Status Register #3:111111
+
+
+General Error Register 1: 0	General Error Register 2: 0
+
+CH0_1_SAT_ERR: 111111
+CH2_3_SAT_ERR: 111111
+CH4_5_SAT_ERR: 111111
+CH6_7_SAT_ERR: 111111
+
+UPDATING CACHED REG...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+RESETTING CHANNEL CONFIGS...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP CHANNEL GAINS...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP DECIMATION RATE...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP SRC LOAD AND UPDATE...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP REFOUT...
+Just wrote AD7779_PDB_REFOUT_BUF
+
+General Error Register 1: 0	General Error Register 2: 0
+
+WROTE MUX
+
+General Error Register 1: 0	General Error Register 2: 0
+
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP POWER MODE...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+UPDATING PIN MODE...
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP CHANNELS......
+
+General Error Register 1: 0	General Error Register 2: 0
+
+AD7779 successfully initialized!!!!!!
+Starting sampling...
+Sampling started!

@@ -1,0 +1,370 @@
+Setting up ADCs...
+Set this as head ADC.
+SPI init success.
+Pinged RESET...
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 100000(DATA)
+
+General Error Register 1: 0	General Error Register 2: 100000
+
+Received:    100000(HEADER) , 111111(DATA)
+Received:    100000(HEADER) , 100111(DATA)
+Received:    100000(HEADER) , 111111(DATA)
+Status Register #1:111111
+Status Register #2:100111
+Status Register #3:111111
+
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+
+General Error Register 1: 0	General Error Register 2: 0
+
+Received:    100000(HEADER) , 111111(DATA)
+Received:    100000(HEADER) , 111111(DATA)
+Received:    100000(HEADER) , 111111(DATA)
+Received:    100000(HEADER) , 111111(DATA)
+CH0_1_SAT_ERR: 111111
+CH2_3_SAT_ERR: 111111
+CH4_5_SAT_ERR: 111111
+CH6_7_SAT_ERR: 111111
+
+UPDATING CACHED REG...
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 100100(DATA)
+Received:    100000(HEADER) , 1001(DATA)
+Received:    100000(HEADER) , 10000000(DATA)
+Received:    100000(HEADER) , 100000(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 111000(DATA)
+Received:    100000(HEADER) , 11000000(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 1010101(DATA)
+Received:    100000(HEADER) , 1010101(DATA)
+Received:    100000(HEADER) , 101(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 1010101(DATA)
+Received:    100000(HEADER) , 1001110(DATA)
+Received:    100000(HEADER) , 10101(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 1010101(DATA)
+Received:    100000(HEADER) , 1010001(DATA)
+Received:    100000(HEADER) , 10100101(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 1010101(DATA)
+Received:    100000(HEADER) , 1010010(DATA)
+Received:    100000(HEADER) , 10110101(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 1010101(DATA)
+Received:    100000(HEADER) , 1010110(DATA)
+Received:    100000(HEADER) , 11000101(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 1010101(DATA)
+Received:    100000(HEADER) , 1001001(DATA)
+Received:    100000(HEADER) , 101(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 1010101(DATA)
+Received:    100000(HEADER) , 1010101(DATA)
+Received:    100000(HEADER) , 1010101(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 1010101(DATA)
+Received:    100000(HEADER) , 1010010(DATA)
+Received:    100000(HEADER) , 11010101(DATA)
+Received:    100000(HEADER) , 10100(DATA)
+Received:    100000(HEADER) , 10100(DATA)
+Received:    100000(HEADER) , 10100(DATA)
+Received:    100000(HEADER) , 10100(DATA)
+Received:    100000(HEADER) , 10000(DATA)
+Received:    100000(HEADER) , 10100(DATA)
+Received:    100000(HEADER) , 10100(DATA)
+Received:    100000(HEADER) , 10100(DATA)
+Received:    100000(HEADER) , 111111(DATA)
+Received:    100000(HEADER) , 111111(DATA)
+Received:    100000(HEADER) , 111111(DATA)
+Received:    100000(HEADER) , 111111(DATA)
+Received:    100000(HEADER) , 11111110(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 111110(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 111100(DATA)
+Received:    100000(HEADER) , 111111(DATA)
+Received:    100000(HEADER) , 100111(DATA)
+Received:    100000(HEADER) , 111111(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 10000000(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+
+General Error Register 1: 0	General Error Register 2: 0
+
+RESETTING CHANNEL CONFIGS...
+Received:    100000(HEADER) , 0(DATA)
+Write:     8, 0
+Received:    100000(HEADER) , 0(DATA)
+Write:     8, 0
+Received:    100000(HEADER) , 0(DATA)
+Write:     8, 0
+Received:    100000(HEADER) , 0(DATA)
+Write:     8, 0
+Received:    100000(HEADER) , 0(DATA)
+Write:     8, 0
+Received:    100000(HEADER) , 0(DATA)
+Write:     8, 0
+Received:    100000(HEADER) , 0(DATA)
+Write:     8, 0
+Received:    100000(HEADER) , 0(DATA)
+Write:     8, 0
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP CHANNEL GAINS...
+Received:    100000(HEADER) , 0(DATA)
+Write:     0, 11000000
+Received:    100000(HEADER) , 0(DATA)
+Write:     1, 11000000
+Received:    100000(HEADER) , 0(DATA)
+Write:     2, 11000000
+Received:    100000(HEADER) , 0(DATA)
+Write:     3, 11000000
+Received:    100000(HEADER) , 0(DATA)
+Write:     4, 11000000
+Received:    100000(HEADER) , 0(DATA)
+Write:     5, 11000000
+Received:    100000(HEADER) , 0(DATA)
+Write:     6, 11000000
+Received:    100000(HEADER) , 0(DATA)
+Write:     7, 11000000
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP DECIMATION RATE...
+Received:    100000(HEADER) , 0(DATA)
+Write:     60, 1
+Received:    100000(HEADER) , 0(DATA)
+Write:     61, 0
+Received:    100000(HEADER) , 0(DATA)
+Write:     62, 0
+Received:    100000(HEADER) , 0(DATA)
+Write:     63, 0
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP SRC LOAD AND UPDATE...
+Received:    100000(HEADER) , 0(DATA)
+Write:     64, 1
+Received:    100000(HEADER) , 0(DATA)
+Write:     64, 0
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP REFOUT...
+Received:    100000(HEADER) , 0(DATA)
+Write:     11, 110100
+Just wrote AD7779_PDB_REFOUT_BUF
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+
+General Error Register 1: 0	General Error Register 2: 0
+
+Received:    100000(HEADER) , 0(DATA)
+Write:     15, 1000000
+WROTE MUX
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+
+General Error Register 1: 0	General Error Register 2: 0
+
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP POWER MODE...
+Received:    100000(HEADER) , 0(DATA)
+Write:     11, 110100
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+
+General Error Register 1: 0	General Error Register 2: 0
+
+UPDATING PIN MODE...
+Received:    100000(HEADER) , 0(DATA)
+Write:     14, 100000
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+
+General Error Register 1: 0	General Error Register 2: 0
+
+SETTING UP CHANNELS......
+Received:    100000(HEADER) , 0(DATA)
+Write:     9, 100000
+Received:    100000(HEADER) , 0(DATA)
+Write:     1C, 10100101
+Received:    100000(HEADER) , 0(DATA)
+Write:     1D, 10100101
+Received:    100000(HEADER) , 0(DATA)
+Write:     1E, 10100101
+Received:    100000(HEADER) , 0(DATA)
+Write:     1F, 11010101
+Received:    100000(HEADER) , 0(DATA)
+Write:     20, 1010101
+Received:    100000(HEADER) , 0(DATA)
+Write:     21, 1010100
+Received:    100000(HEADER) , 0(DATA)
+Write:     A, 10
+Received:    100000(HEADER) , 0(DATA)
+Write:     22, 10100101
+Received:    100000(HEADER) , 0(DATA)
+Write:     23, 10100101
+Received:    100000(HEADER) , 0(DATA)
+Write:     24, 10100101
+Received:    100000(HEADER) , 0(DATA)
+Write:     25, 11010101
+Received:    100000(HEADER) , 0(DATA)
+Write:     26, 1010101
+Received:    100000(HEADER) , 0(DATA)
+Write:     27, 1010100
+Received:    100000(HEADER) , 0(DATA)
+Write:     B, 0
+Received:    100000(HEADER) , 0(DATA)
+Write:     28, 10
+Received:    100000(HEADER) , 0(DATA)
+Write:     29, 1101101
+Received:    100000(HEADER) , 0(DATA)
+Write:     2A, 11100101
+Received:    100000(HEADER) , 0(DATA)
+Write:     2B, 11010101
+Received:    100000(HEADER) , 0(DATA)
+Write:     2C, 1010101
+Received:    100000(HEADER) , 0(DATA)
+Write:     2D, 1010100
+Received:    100000(HEADER) , 0(DATA)
+Write:     C, 0
+Received:    100000(HEADER) , 0(DATA)
+Write:     2E, 0
+Received:    100000(HEADER) , 0(DATA)
+Write:     2F, 1100101
+Received:    100000(HEADER) , 0(DATA)
+Write:     30, 100100
+Received:    100000(HEADER) , 0(DATA)
+Write:     31, 11010101
+Received:    100000(HEADER) , 0(DATA)
+Write:     32, 1010101
+Received:    100000(HEADER) , 0(DATA)
+Write:     33, 1010100
+Received:    100000(HEADER) , 0(DATA)
+Write:     D, 0
+Received:    100000(HEADER) , 0(DATA)
+Write:     34, 0
+Received:    100000(HEADER) , 0(DATA)
+Write:     35, 0
+Received:    100000(HEADER) , 0(DATA)
+Write:     36, 10
+Received:    100000(HEADER) , 0(DATA)
+Write:     37, 11010101
+Received:    100000(HEADER) , 0(DATA)
+Write:     38, 1010101
+Received:    100000(HEADER) , 0(DATA)
+Write:     39, 1010100
+Received:    100000(HEADER) , 0(DATA)
+Write:     E, 10100101
+Received:    100000(HEADER) , 0(DATA)
+Write:     3A, 11
+Received:    100000(HEADER) , 0(DATA)
+Write:     3B, 111101
+Received:    100000(HEADER) , 0(DATA)
+Write:     3C, 10100000
+Received:    100000(HEADER) , 0(DATA)
+Write:     3D, 11010101
+Received:    100000(HEADER) , 0(DATA)
+Write:     3E, 1010101
+Received:    100000(HEADER) , 0(DATA)
+Write:     3F, 1010100
+Received:    100000(HEADER) , 0(DATA)
+Write:     F, 10100101
+Received:    100000(HEADER) , 0(DATA)
+Write:     40, 0
+Received:    100000(HEADER) , 0(DATA)
+Write:     41, 1100011
+Received:    100000(HEADER) , 0(DATA)
+Write:     42, 1100100
+Received:    100000(HEADER) , 0(DATA)
+Write:     43, 11010101
+Received:    100000(HEADER) , 0(DATA)
+Write:     44, 1010101
+Received:    100000(HEADER) , 0(DATA)
+Write:     45, 1010100
+Received:    100000(HEADER) , 0(DATA)
+Write:     10, 10100101
+Received:    100000(HEADER) , 0(DATA)
+Write:     46, 0
+Received:    100000(HEADER) , 0(DATA)
+Write:     47, 0
+Received:    100000(HEADER) , 0(DATA)
+Write:     48, 10
+Received:    100000(HEADER) , 0(DATA)
+Write:     49, 11010101
+Received:    100000(HEADER) , 0(DATA)
+Write:     4A, 1010101
+Received:    100000(HEADER) , 0(DATA)
+Write:     4B, 1010100
+Received:    100000(HEADER) , 0(DATA)
+Received:    100000(HEADER) , 0(DATA)
+
+General Error Register 1: 0	General Error Register 2: 0
+
+AD7779 successfully initialized!!!!!!
+Starting sampling...
+0
+0
+Received:    100000(HEADER) , 0(DATA)
+Write:     12, 1001
+Received:    100000(HEADER) , 0(DATA)
+Write:     13, 10010000
+Sampling started!
